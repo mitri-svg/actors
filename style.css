@@ -1,0 +1,136 @@
+.f {
+    width: 400px;
+    height: 400px;
+    background-color: lightblue;
+    position: relative;
+    border: 3px white solid;
+    outline: 2px solid black;
+    float: right;
+}
+
+.img {
+    width: 140px;
+    height: 140px;
+    background-color: red;
+    background-size: cover;
+    background-position: center;
+    transition: 2s;
+    border: red 2px solid;
+}
+
+.img1 {
+    background-image: url(img1.jpg);
+    position: absolute;
+    margin-top: 240px;
+    margin-left: 50px;
+}
+
+.img2 {
+    background-image: url(img2.jpeg);
+    position: absolute;
+    margin-top: 240px;
+    margin-left: 200px;
+}
+
+.img1:hover {
+    border-radius: 30%;
+    box-shadow: 2px 6px 6px black;
+    background-image: url(imj1.webp);
+
+}
+
+.img2:hover {
+    border-radius: 30%;
+    box-shadow: 2px 6px 6px black;
+    background-image: url(imj2.jpg);
+}
+
+.p {
+    border: 2px solid red;
+    position: absolute;
+    margin-top: 2px;
+    font-family: cursive;
+}
+
+.h1 {
+    width: 185px;
+    font-size: 3.3em;
+    line-height: 18px;
+    background-color: chartreuse;
+    font-family: 'Lumanosimo', cursive;
+}
+
+.w1 {
+    float: left;
+    width: 920px;
+    height: 570px;
+    border: 3px white solid;
+    outline: 2px lightgrey solid;
+    font-family: cursive;
+}
+
+.w1::first-letter {
+    font-size: 5.5em;
+    color: green;
+}
+
+.q1 {
+    font-family: 'Pacifico', cursive;
+}
+
+.b1 {
+    position: absolute;
+    margin-top: 600px;
+}
+
+.w2 {
+    float: left;
+    width: 920px;
+    height: 570px;
+    border: 3px white solid;
+    outline: 2px lightgrey solid;
+    font-family: cursive;
+    position: absolute;
+    margin-top: 700px;
+
+}
+
+.w2::first-letter {
+    font-size: 5.5em;
+    color: green;
+}
+
+.z1 {
+    position: absolute;
+    margin-top: 870px;
+    right: 0;
+
+}
+
+.img3 {
+    background-image: url(img3.jpg);
+    position: absolute;
+    margin-top: 240px;
+    margin-left: 50px;
+}
+
+.img4 {
+    position: absolute;
+    margin-top: 240px;
+    margin-left: 200px;
+    background-image: url(img4.jpeg);
+}
+
+.img3:hover {
+    border-radius: 30%;
+    box-shadow: 2px 6px 6px black;
+    background-image: url(imj3.jpeg);
+
+}
+
+.img4:hover {
+    border-radius: 30%;
+    box-shadow: 2px 6px 6px black;
+    background-image: url(imj4.jpeg);
+
+}
